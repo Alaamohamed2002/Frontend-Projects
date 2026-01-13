@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <title>File</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-relative p-20">
+            <h3 class="p-relative mt-0 txt-c">Alaa</h3>
+            <ul>
+                <li>
+                    <a  class=" d-flex p-10 align-center c-black rad-6 fs-14" href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class=" d-flex p-10 align-center c-black rad-6 fs-14" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-mobile">Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class=" d-flex p-10 align-center c-black rad-6 fs-14" href="profile.html">
+                        <i class="fa-regular  fa-user fa-fw"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="  d-flex p-10 align-center c-black rad-6 fs-14" href="project.html">
+                        <i class="fa-solid  fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="  d-flex p-10 align-center c-black rad-6 fs-14" href="course.html">
+                        <i class="fa-solid  fa-graduation-cap fa-fw"></i>
+                        <span class="hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class=" d-flex p-10 align-center c-black rad-6 fs-14" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class="  active d-flex p-10 align-center c-black rad-6 fs-14" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a  class=" d-flex p-10 align-center c-black rad-6 fs-14" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content  w-full"> 
+            <div class="head bg-white p-15 between-flex ">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Write A Keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="img/head.jpg" alt="User-Image">
+                </div>
+            </div>
+            <h1 class="p-relative">Files</h1>
+            <div class="file-page d-flex m-20 gap-20">
+                <div class="file-stats bg-white p-20 rad-10">
+                    <h3 class="mt-0 mb-15 txt-c-mobile">File Statistics</h3>
+                    <div class="d-flex align-center rad-6 mb-15 fs-13 p-10 border-eee">
+                        <i class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon "></i>
+                        <div class="info">
+                            <span>PDF Files </span>
+                            <span class=" c-grey d-block mt-5">130</span>
+                        </div>
+                        <div class="size c-grey">5.6GB</div>
+                    </div>
+                    <div class="d-flex align-center rad-6 mb-15 fs-13 p-10 border-eee">
+                        <i class="fa-regular fa-images fa-lg green center-flex c-green icon "></i>
+                        <div class="info">
+                            <span>Images </span>
+                            <span class=" c-grey d-block mt-5">115 File</span>
+                        </div>
+                        <div class="size c-grey">7.3GB</div>
+                    </div>
+                    <div class="d-flex align-center rad-6 mb-15 fs-13 p-10 border-eee">
+                        <i class="fa-regular fa-file-word fa-lg red center-flex c-red icon "></i>
+                        <div class="info">
+                            <span>Word Files </span>
+                            <span class=" c-grey d-block mt-5">110 Files</span>
+                        </div>
+                        <div class="size c-grey">3.2GB</div>
+                    </div>
+                    <div class="d-flex align-center rad-6 mb-15 fs-13 p-10 border-eee">
+                        <i class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon "></i>
+                        <div class="info">
+                            <span>CSV Files </span>
+                            <span class=" c-grey d-block mt-5">99 Files</span>
+                        </div>
+                        <div class="size c-grey">2.9GB</div>
+                    </div>
+                    <a class="upload bg-blue c-white rad-6 d-block w-fit fs-13  " href="#" >
+                        <i class="fa-solid fa-angles-up mr-10"></i>
+                        Upload</a>
+                </div>
+                <div class="file-content d-grid gap-20">
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/pdf.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>6/8/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/CSV.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-csv-file.pdf</div>
+                        <p class="c-grey fs-13">lamiaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>10/10/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/Word.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.doc</div>
+                        <p class="c-grey fs-13">lolo</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>20/8/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/SQL.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-SQL-file.pdf</div>
+                        <p class="c-grey fs-13">Farah</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>6/11/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/psd.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-psd-file.pdf</div>
+                        <p class="c-grey fs-13">Raghad</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>20/3/2025</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/pdf.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>30/12/2025</span>
+                            <span>5.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/psd.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-psd-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>22/2/2025</span>
+                            <span>8.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/CSV.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-csv-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>25/5/2025</span>
+                            <span>5.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/Word.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-word-file.pdf</div>
+                        <p class="c-grey fs-13">Lamiaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>12/4/2025</span>
+                            <span>3.9MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/SQL.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-SQL-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>1/5/2025</span>
+                            <span>9.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/CSV.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-CSV-file.pdf</div>
+                        <p class="c-grey fs-13">Farah</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>10/5/2025</span>
+                            <span>3.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/pdf.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                        <p class="c-grey fs-13">Raghad</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>15/4/2025</span>
+                            <span>2.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/pdf.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>6/8/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/CSV.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-csv-file.pdf</div>
+                        <p class="c-grey fs-13">lamiaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>10/10/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/Word.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.doc</div>
+                        <p class="c-grey fs-13">lolo</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>20/8/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/SQL.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-SQL-file.pdf</div>
+                        <p class="c-grey fs-13">Farah</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>6/11/2025</span>
+                            <span>3.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/psd.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-psd-file.pdf</div>
+                        <p class="c-grey fs-13">Raghad</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>20/3/2025</span>
+                            <span>3.5MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/pdf.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                        <p class="c-grey fs-13">Ahmed</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>30/12/2025</span>
+                            <span>5.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/psd.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-psd-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>22/2/2025</span>
+                            <span>8.3MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/CSV.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-csv-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>25/5/2025</span>
+                            <span>5.2MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/Word.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-word-file.pdf</div>
+                        <p class="c-grey fs-13">Lamiaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>12/4/2025</span>
+                            <span>3.9MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/SQL.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-SQL-file.pdf</div>
+                        <p class="c-grey fs-13">Alaa</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>1/5/2025</span>
+                            <span>9.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/CSV.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-CSV-file.pdf</div>
+                        <p class="c-grey fs-13">Farah</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>10/5/2025</span>
+                            <span>3.8MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white p-10 rad-10">
+                        <i class="fas fa-download c-grey p-absolute"></i>
+                        <div class="icon txt-c">
+                            <img  class="mt-15 mb-15" src="img/pdf.png" alt="BDF-image">
+                        </div>
+                        <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+                        <p class="c-grey fs-13">Raghad</p>
+                        <div class="info between-flex fs-13 mt-10 pt-10 c-grey">
+                            <span>15/4/2025</span>
+                            <span>2.8MB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+            
+    </div>
+</body>
+</html>
