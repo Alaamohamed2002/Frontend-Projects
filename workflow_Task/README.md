@@ -56,7 +56,7 @@ Task-Flow/
 │   └── style.css
 │
 ├── js/
-│   └── main.js
+   └── main.js
 
 
 ## 🎯 How to Use
