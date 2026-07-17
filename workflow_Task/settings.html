@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="anything for now ">
+        <title>taskFlow</title>
+        <link rel="shortcut icon" href="img/book-open-reader.svg" type="image/x-icon">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <main class="main-page">
+            <aside>
+                <div class="logo">
+                    <h1>Task Flow</h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="fa fa-house"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="allTask.html">
+                            <i class="fa fa-list-check"></i>
+                            <span>All tasks</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="todayTasks.html">
+                            <i class="fa fa-calendar-day"></i>
+                            <span>Today / Due Today</span>
+                        </a>
+                    </li>
+                    <li >
+                        <a href="priority.html">
+                            <i class="fa fa-star"></i>
+                            <span>Priority</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="settings.html">
+                            <i class="fa fa-gear"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="Statistics.html">
+                            <i class="fa fa-chart-column"></i>
+                            <span>Statistics</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <section class="wrapper">
+                <header>
+                    <nav>
+                        <div class="search">
+                            <i class="fa fa-search"></i>
+                            <input type="text"
+                                name="search"
+                                placeholder="Search...">
+                        </div>
+
+                        <div class="profile">
+                            <img src="img/profile.jpg"
+                                alt="Profile Image">
+                            <i class="fa fa-bell"></i>
+                        </div>
+
+                    </nav>
+                </header>
+                <div class="head">
+                    <h1> Settings</h1>
+                </div>
+
+                <div class="container data-container">
+                    <div class="data-management-container container ">
+                        <div class="title">
+                            <h3>Data Management</h3>
+                        </div>
+                        <div class="export-tasks flex">
+                            <h2>Export Tasks</h2>
+                            <button class="download-btn">Download <i class="fa fa-download"></i></button>
+                        </div>
+                        <div class="add-tasks flex">
+                            <h2>Add Tasks</h2>
+                            <a href="index.html" class="add">Add <i class="fa fa-arrow-alt-circle-right"></i></a>
+                        </div>
+                        <div class="remove-tasks flex">
+                            <h2>Clear All Tasks</h2>
+                            <button class="clear-btn">Clear <i class="fa fa-trash-can"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="rate-container container">
+                        <div class="rate">
+                            <i class="fa fa-star"></i>
+                            <span>Rate Us</span>
+                        </div>
+                        <div class="write">
+                            <i class="fa fa-pen"></i>
+                            <span>Write Us</span>
+                        </div>
+                    </div>
+                    <div class="privacy-container container">
+                        <div class="rate">
+                            <i class="fa fa-file"></i>
+                            <span>Privacy</span>
+                        </div>
+                        <div class="terms">
+                            <i class="fa fa-id-card-alt"></i>
+                            <span>Terms Of Services</span>
+                        </div>
+                    </div>
+
+                    <div class="conformDelete">
+                        <div class="box">
+                            <h3>Are You Sure You Want To Delete All Tasks?</h3>
+                            <div class="buttons">
+                                <button class="clear-btn">Clear <i class="fa fa-trash-can"></i></button>
+                                <button class="cancel">Cancel <i class="fa fa-cancel"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="anything for now ">
+    <title>taskFlow</title>
+    <link rel="shortcut icon" href="img/book-open-reader.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main-page">
+        <aside>
+            <div class="logo">
+                <h1>Task Flow</h1>
+            </div>
+            <ul>
+                <li class="active"> 
+                    <a href="index.html">
+                        <i class="fa fa-house"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li> 
+                    <a href="allTask.html">
+                        <i class="fa fa-list-check"></i>
+                        <span>All tasks</span>
+                    </a>
+                </li>
+                <li> 
+                    <a href="todayTasks.html">
+                        <i class="fa fa-calendar-day"></i>
+                        <span>Today / Due Today</span>
+                    </a>
+                </li>
+                <li> 
+                    <a href="priority.html">
+                        <i class="fa fa-star"></i>
+                        <span>Priority</span>
+                    </a>
+                </li>
+                <li> 
+                    <a href="settings.html">
+                        <i class="fa fa-gear"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Statistics.html">
+                        <i class="fa fa-chart-column"></i>
+                        <span>Statistics</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section class="wrapper">
+            
+            <header>
+                <nav>
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                        <input type="text" name="search" placeholder="Search...">
+                    </div>
+
+                    <div class="profile">
+                        <img src="img/profile.jpg" alt="Profile Image" >
+                            <i class="fa fa-bell"></i>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="container">
+                <div class="addtask">
+                    <h1>Add Your Tasks</h1>
+                    <div class="box">
+                    <div class="form">
+                        <div class="group">
+                            <label for="title">Task Title</label>
+                            <input type="text" name="title" id="title" class="title">
+                        </div>
+                        <div class="group">
+                            <label for="desc">Task Description</label>
+                            <textarea name="desc" id="desc"></textarea>
+                        </div>
+                    </div>
+
+                        <div class="priority">
+                            <h2>Choose Priority</h2>
+                            <div class=" prio priority-high">
+                                <label for="high">High</label>
+                                <input type="radio" name="high" id="high">
+                            </div>
+                            <div class=" prio priority-medium">
+                                <label for="medium">Medium</label>
+                                <input type="radio" name="medium" id="medium">
+                            </div>
+                            <div class=" prio priority-low">
+                                <label for="low">Low</label>
+                                <input type="radio" name="low" id="low">
+                            </div>
+                        </div>
+
+                        <div class="Date">
+                            <h4>Choose Start Date & End Date</h4>
+                            <div class="startdate">
+                                <label for="start"> <i class="fa fa-calendar"></i> Start Date</label>
+                                <input type="date" name="start" id="start">
+                            </div>
+                            <div class="enddate">
+                                <label for="end"><i class="fa fa-calendar"></i> End Date</label>
+                                <input type="date" name="end" id="end">
+                            </div>
+                            <button type="submit" class="btn-add">Add</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="task-container">
+                <h3>Recent Tasks</h3>
+                <div class="container">
+                </div>
+                <a href="allTask.html" class="see-all-btn">See All Tasks</a>
+            </div>
+        </section>
+
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
+
