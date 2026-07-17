@@ -556,9 +556,31 @@ function updateTaskCount ()
         let mediumPriority = arrayOfTasks.filter( task => task.priority === "medium" && task.complete === false );
         let lowPriority = arrayOfTasks.filter( task => task.priority === "low" && task.complete === false );
 
-        highPriorityContainer1.querySelector( "h2 .tasks-num" ).innerHTML = highPriority.length;
-        mediumPriorityContainer2.querySelector( "h2 .tasks-num" ).innerHTML = mediumPriority.length;
-        lowPriorityContainer3.querySelector( "h2 .tasks-num" ).innerHTML = lowPriority.length;
+        
+        if ( highPriority.length > 0 )
+        {
+            
+            let h2 = document.createElement( "h2" );
+            h2.innerHTML = `<span class="tasks-num"></span> Tasks`;
+            highPriorityContainer1.appendChild( h2 );
+            highPriorityContainer1.querySelector( "h2 .tasks-num" ).innerHTML = highPriority.length;
+        }
+        if ( mediumPriority.length > 0 )
+        {
+            let h2 = document.createElement( "h2" );
+            h2.innerHTML = `<span class="tasks-num"></span> Tasks`;
+            mediumPriorityContainer2.appendChild( h2 );
+            mediumPriorityContainer2.querySelector( "h2 .tasks-num" ).innerHTML = mediumPriority.length;
+        }
+        if ( lowPriority.length > 0 )
+        {
+            let h2 = document.createElement( "h2" );
+            h2.innerHTML = `<span class="tasks-num"></span> Tasks`;
+            lowPriorityContainer3.appendChild( h2 );
+            lowPriorityContainer3.querySelector( "h2 .tasks-num" ).innerHTML = lowPriority.length;
+        }
+        
+        
 
         highPriority.length === 0 ? highPriorityContainer1.classList.remove( "block" ) : highPriorityContainer1.classList.add( "block" );
         mediumPriority.length === 0 ? mediumPriorityContainer2.classList.remove( "block" ) : mediumPriorityContainer2.classList.add( "block" );
