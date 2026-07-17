@@ -1135,12 +1135,14 @@ header .mega-menu .links li i {
     width: 100%;
     height: 30px;
     background-color: #ccc;
+    transition: 0.5s;
 }
 .ourskills .skills .skill .prog span{
     display: block;
     height: 100%;
     background-color: var(--main-color);
     position: relative;
+    transition: 0.5s;
 }
 
 .ourskills .skills .skill .prog span::before {

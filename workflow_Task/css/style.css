@@ -352,7 +352,7 @@ header nav .profile i::after {
     background-color: #00b0ff;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 991px) {
     .priority-container {
         width      : 600px;
         display    : grid;
@@ -864,6 +864,7 @@ header nav .profile i::after {
     justify-content : center;
     align-items     : center;
     border-radius   : 6px;
+    width           : 60%;
 }
 
 @media (min-width:768px) and (max-width:1024px) {
