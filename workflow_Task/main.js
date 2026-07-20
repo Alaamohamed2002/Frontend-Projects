@@ -621,27 +621,18 @@ function priorityTasks ( tasks )
         } );
 
 
-        if ( highPriority.length > 0 )
+        if ( highPriorityArr.length > 0 )
         {
 
-            let h2 = document.createElement( "h2" );
-            h2.innerHTML = `<span class="tasks-num"></span> Tasks`;
-            highPriorityContainer1.appendChild( h2 );
-            highPriorityContainer1.querySelector( "h2 .tasks-num" ).innerHTML = highPriority.length;
+            highPriorityContainer1.querySelector( "h2 .tasks-num" ).innerHTML = highPriorityArr.length;
         }
-        if ( mediumPriority.length > 0 )
+        if ( mediumPriorityArr.length > 0 )
         {
-            let h2 = document.createElement( "h2" );
-            h2.innerHTML = `<span class="tasks-num"></span> Tasks`;
-            mediumPriorityContainer2.appendChild( h2 );
-            mediumPriorityContainer2.querySelector( "h2 .tasks-num" ).innerHTML = mediumPriority.length;
+            mediumPriorityContainer2.querySelector( "h2 .tasks-num" ).innerHTML = mediumPriorityArr.length;
         }
-        if ( lowPriority.length > 0 )
+        if ( lowPriorityArr.length > 0 )
         {
-            let h2 = document.createElement( "h2" );
-            h2.innerHTML = `<span class="tasks-num"></span> Tasks`;
-            lowPriorityContainer3.appendChild( h2 );
-            lowPriorityContainer3.querySelector( "h2 .tasks-num" ).innerHTML = lowPriority.length;
+            lowPriorityContainer3.querySelector( "h2 .tasks-num" ).innerHTML = lowPriorityArr.length;
         }
 
 
